@@ -17,10 +17,10 @@ class Doctor
     end
 
     def appointments
-      Appointment.all.doctor
+      Appointment.all.self
     end
 
-    def patients
+    def patient
     end
 
 
