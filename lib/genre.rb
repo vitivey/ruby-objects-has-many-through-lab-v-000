@@ -10,4 +10,8 @@ class Genre
       Song.all
     end
 
+    def artists
+      Artist.all
+    end
+
 end
