@@ -7,7 +7,7 @@ attr_reader  :genres, :songs
     def initialize(name)
       @name=name
       @songs=[]
-      # @genres=[]
+      @genres=[]
       @@all << self
     end
 
