@@ -17,6 +17,7 @@ attr_reader :songs
 
     def new_song(name, genre)
       song = Song.new(name, self, genre)
+      songs << song
       # binding.pry
       # self.genres << self.genre
     end
