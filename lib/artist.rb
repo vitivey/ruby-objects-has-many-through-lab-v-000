@@ -20,8 +20,7 @@ attr_accessor :name
     end
 
     def songs
-      @@all
-      binding.pry
+      @songs
     end
 
     def genres
