@@ -10,5 +10,11 @@ class Doctor
       appointment = Doctor.new
     end
 
+    def appointments
+    end
 
+    def patients
+    end
+
+    
 end
