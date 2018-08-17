@@ -1,7 +1,7 @@
 require "pry"
 class Artist
 attr_accessor :name
-attr_reader :songs, :genres
+attr_reader  :genres
 @@all=[]
 
     def initialize(name)
@@ -19,6 +19,10 @@ attr_reader :songs, :genres
       song = Song.new(name, self, genre)
       songs << song
       # self.genres << self.genre
+    end
+
+    def songs
+      songs.flatten
     end
 
 
