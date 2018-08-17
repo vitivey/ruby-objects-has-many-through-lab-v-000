@@ -12,7 +12,14 @@ attr_accessor :name
     end
 
     def new_song
-      
+
+    end
+
+    def songs
+    end
+
+    def genres
+
     end
 
 end
