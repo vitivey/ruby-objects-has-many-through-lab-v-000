@@ -20,7 +20,7 @@ attr_accessor :name
     end
 
     def songs
-      self.songs
+      songs
     end
 
     def genres
