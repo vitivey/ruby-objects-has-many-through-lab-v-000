@@ -16,11 +16,11 @@ attr_reader :songs
     end
 
     def new_song(name, genre)
-      # self.songs << Song.new(name, self, genre)
+      self.songs << Song.new(name, self, genre)
       # self.genres << self.songs.genre
     end
 
-  
+
     def genres
 
     end
