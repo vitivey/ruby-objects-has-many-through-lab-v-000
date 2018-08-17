@@ -1,13 +1,12 @@
 require "pry"
 class Artist
 attr_accessor :name
-attr_reader :songs
 @@all=[]
 
     def initialize(name)
       @name=name
-      @songs=[]
-      @genres=[]
+      # @songs=[]
+      # @genres=[]
       @@all << self
     end
 
@@ -16,9 +15,8 @@ attr_reader :songs
     end
 
     def new_song(name, genre)
-      song = Song.new(name, self, genre)
-      songs << song
-      # binding.pry
+      # song = Song.new(name, self, genre)
+      # songs << song
       # self.genres << self.genre
     end
 
