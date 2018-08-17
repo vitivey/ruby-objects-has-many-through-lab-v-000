@@ -15,7 +15,7 @@ attr_accessor :name
 
     def new_song(name, genre)
       self.songs << Song.new(name, self, genre)
-      self.genres << self.songs.genres
+      self.genres << self.songs.genre
     end
 
     def songs
