@@ -22,7 +22,7 @@ class Doctor
     end
 
     def patients
-      Patients.all
+      Patient.all
     end
 
 
