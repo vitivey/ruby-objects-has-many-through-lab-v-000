@@ -9,6 +9,9 @@ class Patient
       appointment=Appointment.new(self, doctor, date)
     end
 
+    def appointments
+    end
+
     def doctors
       Appointment.doctor
     end
