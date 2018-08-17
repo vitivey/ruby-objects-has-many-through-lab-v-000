@@ -21,7 +21,8 @@ class Doctor
       # binding.pry
     end
 
-    def patient
+    def patients
+      Patients.all
     end
 
 
