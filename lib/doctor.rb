@@ -23,7 +23,7 @@ class Doctor
 
     def patients
       Appointment.all.collect do |appointment|
-        appointment.patent
+        appointment.patient
       end
     end
 
