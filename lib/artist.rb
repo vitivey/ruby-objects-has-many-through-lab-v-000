@@ -6,7 +6,7 @@ attr_reader :songs
 
     def initialize(name)
       @name=name
-      @songs=[]
+      # @songs=[]
       @genres=[]
       @@all << self
     end
@@ -16,7 +16,7 @@ attr_reader :songs
     end
 
     def new_song(name, genre)
-      self.songs << Song.new(name, self, genre)
+      song = Song.new(name, self, genre)
       # binding.pry
       # self.genres << self.genre
     end
