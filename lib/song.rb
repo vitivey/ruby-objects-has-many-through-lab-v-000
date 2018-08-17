@@ -4,8 +4,8 @@ attr_reader :name, :artist, :genre
 
     def initialize(name, artist, genre)
       @name=name
-      @artist=Artist.new(artist)
-      @genre=Genre.new(genre)
+      @artist=artist
+      @genre=genre
       @@all << self
     end
 
