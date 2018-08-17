@@ -13,7 +13,7 @@ class Patient
     end
 
     def doctors
-      Appointment.doctor
+      Appointment.all
     end
 
 end
