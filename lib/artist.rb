@@ -21,8 +21,6 @@ attr_accessor :name
     end
 
 
-    def genres
-
-    end
+  \
 
 end
