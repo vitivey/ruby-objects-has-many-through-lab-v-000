@@ -5,6 +5,7 @@ attr_accessor :name
     def initialize(name)
       @name=name
       @songs=[]
+      @genres=[]
       @@all << self
     end
 
@@ -14,7 +15,7 @@ attr_accessor :name
 
     def new_song(name, genre)
       self.songs << Song.new(name, self, genre)
-      self.genre=Genre.new
+      self.genres << Genre.new(genre)
     end
 
     def songs
