@@ -17,7 +17,7 @@ class Doctor
     end
 
     def appointments
-      Appointment.all.self
+      Appointment.all
     end
 
     def patient
